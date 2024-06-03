@@ -1,0 +1,52 @@
+[
+  {
+    "username": "johndoe",
+    "password": "password123",
+    "email": "johndoe@trackis.com"
+  },
+  {
+    "username": "janesmith",
+    "password": "securePass!45",
+    "email": "janesmith@trackis.com"
+  },
+  {
+    "username": "mikejohnson",
+    "password": "mikeSecure789",
+    "email": "mikejohnson@trackis.com"
+  },
+  {
+    "username": "emilydavis",
+    "password": "EmilyPwd456!",
+    "email": "emilydavis@trackis.com"
+  },
+  {
+    "username": "davidwilson",
+    "password": "DavidPass123",
+    "email": "davidwilson@trackis.com"
+  },
+  {
+    "username": "sarahmiller",
+    "password": "SarahSecure$789",
+    "email": "sarahmiller@trackis.com"
+  },
+  {
+    "username": "chrisbrown",
+    "password": "ChrisPassword456",
+    "email": "chrisbrown@trackis.com"
+  },
+  {
+    "username": "amandaclark",
+    "password": "AmandaPwd123!",
+    "email": "amandaclark@trackis.com"
+  },
+  {
+    "username": "robertmoore",
+    "password": "RobertSecure#789",
+    "email": "robertmoore@trackis.com"
+  },
+  {
+    "username": "laurenwhite",
+    "password": "LaurenPass456$",
+    "email": "laurenwhite@trackis.com"
+  }
+]

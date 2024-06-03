@@ -1,0 +1,52 @@
+[
+  {
+    "title": "E-Commerce Website",
+    "description": "Developed a full-featured e-commerce website using Spring Boot and Angular, including user authentication, product catalog, and order management.",
+    "private": false
+  },
+  {
+    "title": "Inventory Management System",
+    "description": "Designed and implemented an inventory management system for a small business, featuring real-time stock tracking and reporting.",
+    "private": true
+  },
+  {
+    "title": "Social Media Platform",
+    "description": "Built a social media platform with Java and React, supporting user profiles, posts, comments, and real-time notifications.",
+    "private": false
+  },
+  {
+    "title": "Online Learning Portal",
+    "description": "Created an online learning portal with Java Spring and React, enabling users to enroll in courses, track progress, and earn certificates.",
+    "private": true
+  },
+  {
+    "title": "Banking Application",
+    "description": "Developed a secure banking application with Spring Boot, including features for account management, transactions, and customer support.",
+    "private": false
+  },
+  {
+    "title": "Task Management Tool",
+    "description": "Designed a task management tool with Java and Angular, allowing users to create, assign, and track tasks across multiple projects.",
+    "private": false
+  },
+  {
+    "title": "Weather Forecast App",
+    "description": "Built a weather forecast app using Java and React, providing real-time weather updates and forecasts based on user's location.",
+    "private": true
+  },
+  {
+    "title": "Health Tracking System",
+    "description": "Implemented a health tracking system with Spring Boot and React, supporting user profiles, health metrics tracking, and data visualization.",
+    "private": false
+  },
+  {
+    "title": "Library Management System",
+    "description": "Developed a library management system using Java and Spring, including features for book cataloging, user management, and borrowing history.",
+    "private": true
+  },
+  {
+    "title": "Expense Tracker",
+    "description": "Created an expense tracker application with Java and Angular, allowing users to log expenses, set budgets, and generate reports.",
+    "private": false
+  }
+]
