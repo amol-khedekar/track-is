@@ -1,11 +1,11 @@
 # About 
-Track-is , an simple issue tracker system is full-stack web application allowing users to effieciently manage bugs and stories. System incorporates multiple types of users. Hence security becomes utmost important and hence system is implemented using Role Based Access Control (RBAC). Developed robust REST APIs in Spring Boot with JWT Authentication. A responsive frontend calls these APIs made in Angular frontend. 
+Track-is , an simple issue tracker system is full-stack web application allowing users to effieciently manage bugs and stories. System incorporates multiple types of users. Hence security becomes utmost important and hence system is implemented using Role Based Access Control (RBAC). Developed robust REST APIs in Spring Boot with JWT Authentication. A responsive frontend calls these APIs made in React frontend. 
 
 # Technology Stack -
-* **Languages**: Java
-* **Frameworks:** Spring Boot
+* **Languages**: Java, Typescript
+* **Frameworks:** Spring Boot, React
 * **Databases:** MySQL DB, Redis
-* **Build tools:** Maven
+* **Build tools:** Maven, Vite
 * **Servers:** Tomcat Server
 
 
