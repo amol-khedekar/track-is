@@ -1,11 +1,11 @@
 # Track-is 
-Track-is , an simple issue tracker system is full-stack web application allowing users to effieciently manage bugs and stories. System incorporates multiple types of users. Hence security becomes utmost important and hence system is implemented using Role Based Access Control (RBAC). Developed robust REST APIs in Spring Boot with JWT Authentication. A responsive frontend calls these APIs made in React frontend. 
+Track-is , an simple issue tracker system is full-stack web application allowing users to effieciently manage bugs and stories. System incorporates multiple types of users. Hence security becomes utmost important and hence system is implemented using Role Based Access Control (RBAC). Developed robust REST APIs in Spring Boot with JWT Authentication.
 
 # Technology Stack -
-* **Languages**: Java, Typescript
-* **Frameworks:** Spring Boot, React
+* **Languages**: Java
+* **Frameworks:** Spring Boot
 * **Databases:** MySQL DB, Redis
-* **Build tools:** Maven, Vite
+* **Build tools:** Maven
 * **Servers:** Tomcat Server
 
 
@@ -18,11 +18,6 @@ Track-is , an simple issue tracker system is full-stack web application allowing
 
 # List of REST APIs can be called 
 
-## Auth API
-| HTTP Method | URI | Description                                                          | 
-| ----------- | --- |----------------------------------------------------------------------|
-| POST        | /api/auth/login | Sign in and get access token + refresh token pair                    |
-| POST        | /api/auth/token | For Expired Token, Create and get an new access + refresh token pair |
 
 ## User API
 | HTTP Method | URI | Description | 
@@ -32,6 +27,23 @@ Track-is , an simple issue tracker system is full-stack web application allowing
 | GET         | /api/users/{username} | Get user data | 
 | PATCH       | /api/users/{username} | Update user data | 
 | DELETE      | /api/users/{username} | Delete user | 
+
+## Authentication API
+| HTTP Method | URI | Description                                                          | 
+| ----------- | --- |----------------------------------------------------------------------|
+| POST        | /api/auth/login | Sign in and get access token + refresh token pair                    |
+| POST        | /api/auth/token | For Expired Token, Create and get an new access + refresh token pair |
+
+## Issue API
+| HTTP Method | URI | Description | 
+| ----------- | --- | ----------- |
+| GET         | /api/issues | Get all issues |
+| POST        | /api/issues | Create an issue |
+| GET         | /api/issues/{issueId} | Get issue data | 
+| PATCH       | /api/issues/{issueId} | Update issue | 
+| DELETE      | /api/issues/{issueId} | Delete issue | 
+| GET         | /api/issues/{issueId}/comments | Get issue comments | 
+
 
 ## Project API
 | HTTP Method | URI | Description | 
@@ -48,15 +60,6 @@ Track-is , an simple issue tracker system is full-stack web application allowing
 | PUT         | /api/projects/{projectId}/collaborators/{username} | Add a project collaborator | 
 | DELETE      | /api/projects/{projectId}/collaborators/{username} | Delete project collaborator | 
 
-## Issue API
-| HTTP Method | URI | Description | 
-| ----------- | --- | ----------- |
-| GET         | /api/issues | Get all issues |
-| POST        | /api/issues | Create an issue |
-| GET         | /api/issues/{issueId} | Get issue data | 
-| PATCH       | /api/issues/{issueId} | Update issue | 
-| DELETE      | /api/issues/{issueId} | Delete issue | 
-| GET         | /api/issues/{issueId}/comments | Get issue comments | 
 
 ## Comment API
 | HTTP Method | URI | Description | 
